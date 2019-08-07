@@ -1,0 +1,31 @@
+mkdir GIT-REPO
+ls -lart
+cd GIT-REPO/
+
+git init
+
+git remote add origin https://github.com/rajeshchoudhary11/Linux-cmmands-ref.git
+
+git username
+git --help
+touch resolution-change.txt
+chmod -x resolution-change.txt 
+git add resolution-change.txt 
+get commit -m "first Commit"
+git commit -m "first Commit"
+git config --global user.email "rajesh.choudhary.here4u@gmail.com"
+git commit -m "first Commit"
+git push -u origin master 
+history
+git pull 
+ls
+ls -lart
+cat resolution-change.txt 
+touch git-commands.txt
+git commit -m "git-cmd Commit"
+git push -u origin master 
+git config --global user.name "rajeshchoudhary11"
+git add git-commands.txt 
+git commit -m "git-cmd Commit"
+git push -u origin master 
+history
